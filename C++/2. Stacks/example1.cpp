@@ -1,31 +1,18 @@
 #include <iostream>
 #include <stack>
+using namespace std;
 
 int main() {
-  std::stack<int> myStack;
+  // create a stack of strings
+  stack<string> languages;
 
-  // Pushing elements onto the stack
-  myStack.push(10);
-  myStack.push(20);
-  myStack.push(30);
+  // add element to the Stack
+  languages.push("C++");
+  languages.push("Java");
+  languages.push("Python");
 
-  // Checking if the stack is empty
-  if (myStack.empty()) {
-    std::cout << "Stack is empty.\n";
-  } else {
-    std::cout << "Stack is not empty.\n";
-  }
-
-  // Accessing the top element of the stack
-  std::cout << "Top element: " << myStack.top() << "\n";
-
-  // Popping elements from the stack
-  myStack.pop();
-
-  std::cout << "Top element after popping: " << myStack.top() << "\n";
-
-  // Getting the size of the stack
-  std::cout << "Size of stack: " << myStack.size() << "\n";
+  // print top element
+  cout << languages.top();
 
   return 0;
 }
