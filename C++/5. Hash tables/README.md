@@ -12,3 +12,9 @@ In both these examples the students and books were hashed to a unique number.
 In the next image you can see a graphic example of a hash table
 
 ![Alt text](https://d33wubrfki0l68.cloudfront.net/87075beeda9ac5cf3bc104aaca45d231ef42aaea/56f14/img/blog/data-structures/hash-tables/hash-table.png "a title")
+
+<br >
+
+In brief, a hash table uses a hash function to compute an index, also called a hash code, into an array of buckets or slots, from which the desired value can be found.
+
+In the `example1.cpp` you can find a example of how works a hash table.
